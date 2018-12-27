@@ -1,0 +1,150 @@
+body, html {
+    height: 100%;
+    width: 100%
+  }
+
+  html {
+    overflow-y: scroll; 
+  }
+
+/*************************
+*** JUMBOTRON ***
+*************************/
+.text-center{
+    text-align: center;
+} 
+
+main{
+    height: 100%;
+}
+
+.jumbotron-fluid{
+    background: url(../img/boy-child-childhood-346796.jpg);
+    text-align: center;
+    background-size:100% 100%;
+    height: 100%;
+    padding: 7rem;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    clear: both;
+    background-attachment: fixed;
+
+}
+
+.model{
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    
+}
+/*************************
+*** GRID SYSTEM ***
+*************************/
+
+.container{
+    padding: 90px;
+    
+}
+.container h1{
+    color: red;
+}
+
+
+/*************************
+*** CARAOUSEL ***
+*************************/
+
+
+#carouselExampleIndicators{
+    clear: both;
+    padding: 90px;
+}
+
+.carousel-item img{
+    width: 100%;
+}
+.carousel h3{
+    color: rgb(151, 67, 67);
+    font-size: 34px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.carousel p{
+    font-family: 'Lato';
+    color: rgb(252, 84, 6);
+    font-size: 20px;
+}
+/*************************
+*** CARDS ***
+*************************/
+
+.card-deck{
+    padding: 50px;
+}
+
+.card-img-top{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+    width: 100%;
+}
+
+.card-deck p{
+    font-family: 'Charm', cursive;
+    font-size: 20px;
+
+}
+.card-deck h4 a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 24px;
+    color: black;  
+    text-decoration: none;  
+}
+/*************************
+*** FOOTER ***
+*************************/
+
+footer ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0px;
+    flex-grow: 1;
+    align-items: center;
+}
+footer ul li{
+    padding: 20px;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+aside{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+/*************************
+*** META TAGS ***
+*************************/
+
+
+@media only screen and (max-width: 790px) {
+.jumbotron-fluid .display-3 {
+    font-size: 2rem;
+}
+#carouselExampleIndicators{
+    clear: both;
+    padding: 10px;
+}
+
+
+}
